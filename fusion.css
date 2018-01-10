@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 2em;
+
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+header{
+    height: 40vh;
+    background-image: linear-gradient(to bottom right, rgba(255, 140, 0, 0.71), rgba(255, 165, 0, 0.79)),
+    url(https://github.com/themotionmachine/ACHE/blob/master/IMG_0154.jpg?raw=true);
+    background-size: cover;
+    background-position: top;
+}
+
+.contentMain{
+    margin-top: 1.5em;
+}
+
+.contentLeft{
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: left;
+
+
+}
+
+.contentLeft p{
+    margin-left: 10%;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+.contentRight p{
+    margin-left: 10%;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+.contentLeft ul{
+    margin-left: 15%;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+.contentRight{
+    display: block;
+    width: 50%;
+    float: right;
+
+}
+
+.contentRight h3{
+    text-align: center;
+}
+
+.aboutf{
+    color: black;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 500px)  {
+    header{
+        height: 20vh;
+        background-color: black;
+    }
+    h1{
+        font-size: 2em;
+        padding-top: .5em;
+    }
+
+
+}
